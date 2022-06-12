@@ -1,0 +1,366 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="imagens/shortcut-32x32.png" type="image/x-icon">
+    <title>F&F - Isabella Luiza dos Santos Souza</title>
+    <style type="text/css">
+        body {
+            margin: 0% 0% 1% 0%;
+            font-family: 'Montserrat', sans-serif;  }
+        #cabecalho {
+background-color:#32021F;
+            margin: 1% 1% 2% 1%;
+            border-radius: 15px;
+            box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.8);
+            cursor: context-menu;   }
+        #cabecalho h1 {
+            color: white;
+            font-size: 230%;
+            text-align: left;
+            padding-top: 32px;
+            margin-bottom: 20px;
+            font-weight: bold;  }
+        #cabecalho h2 {
+            color: white;
+            font-size: 100%;
+            text-align: right;  }
+        #cabecalho h3 {
+            color: white;
+            font-size: 100%;
+            text-align: left;   }
+        #foto img {
+            width: 160px;
+            border-radius: 50%;
+            margin: 20px;   }
+
+        #icon img {
+            width: 25px;
+            margin: 30px;   }
+        td#icon {
+            vertical-align: top;    }
+        #dados {
+            vertical-align: text-top;
+        }
+        #conteudo {
+            text-align: left;
+            cursor: context-menu;
+        }
+        #conteudo ul {
+            padding-left: 0%;
+            list-style: none;
+            padding-right: 60px;
+            font-weight: bolder;
+            margin-top: 0%;
+        }
+        #conteudo li {
+            font-size: 15px;
+            margin-bottom: 10px;
+        }
+        #conteudo table {
+            width: 60%;
+            background-color: #F3F5F7;
+            border-radius: 15px;
+            padding-left: 3%;
+            padding-right: 3%;
+        }
+        #conteudo td {
+            vertical-align: top;
+        }
+        #sobre-mim {
+            text-align: justify;
+            line-height: 22px;
+        }
+        #conteudo h1 {
+            color: black;
+            font-size: 22px;
+            text-transform: uppercase;
+            font-weight: bolder;
+            padding-top: 15px;
+            margin-top: 5px;
+            position: relative;
+        }
+        #conteudo h1::before {
+            content: "";
+            position: absolute;
+            left: 7%;
+            bottom: 16px;
+            width: 150px;
+            height: 14px;
+            transform: skew(-12deg) translateX(-5%);
+            background: rgba(47, 45, 46, 0.1);
+            z-index: 0;
+        }
+        #conteudo h2 {
+            font-size: 18px;
+            margin-top: 20px;
+            margin-bottom: 5px;
+        }
+        #conteudo h3 {
+            font-size: 11px;
+            margin-top: 0px;
+            margin-bottom: 5px;
+            text-transform: uppercase;
+        }
+        #conteudo h4 {
+            font-size: 15px;
+            margin-top: 0px;
+            margin-bottom: 20px;
+            line-height: 22px;
+            text-align: justify;
+        }
+        #vertical {
+            height: 0%;
+            border-left: 1px solid #494F56;
+            padding: 10px;
+        }
+        #soft h1 {
+            margin-top: 40px;
+        }
+        .tarefas{
+            line-height:20px;
+            margin-top: 0%;
+        }
+        .level-wrapper {
+            border-top-right-radius: 20px;
+            border-bottom-right-radius: 20px;
+            background-color: #DAE0E7;
+            clear: both;
+            width: 75%;
+            height: 10px;
+            border-radius: 20px;
+        }
+        .level-label {
+            font-weight: 400;
+            color: #fff;
+            position: absolute;
+            z-index: 1;
+            padding-left: 10px;
+            padding-top: 12px;
+        }
+        .level-animate {
+            -webkit-animation-name: grow-to-right;
+            animation-name: grow-to-right;
+        }
+        .level-blank {
+            border-radius: 20px;
+            height: 10px;
+            float: left;
+        }
+        .level-bar {
+            background-color: #202132;
+            height: 10px;
+            border-radius: 20px;
+            white-space: nowrap;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="cabecalho">
+        <table align="center">
+            <tr>
+                <td id="foto">
+                    <img src="imagens\perfil-isa.jpeg" alt="Foto de Isabella">
+                </td>
+                <td id="dados">
+                    <h1>Isabella Luiza Souza</h1>
+                    <h2>Isabella Luiza dos Santos Souza, 18 anos, Poá-SP</h2>
+                    <h3>DESENVOLVIMENTO DE SISTEMAS</h3>
+                </td>
+                <td id="icon">
+                    <img src="imagens\icons.png" usemap="#redes">
+                    <map name="redes">
+                        <area shape="rect" coords="0, 0, 30, 30" href="https://www.linkedin.com/in/isabella-luiza-souza"
+                            target="_blank" title="LinkedIn">
+                        <area shape="rect" coords="0, 40, 30, 60"
+                            href="https://api.whatsapp.com/send?phone=5511960330494o&text=Ola,%20Isabella"
+                            target="_blank" title="Whatsapp">
+                        <area shape="rect" coords="0, 75, 30, 95"
+                            href="mailto:isabellaluizasouz@gmail.com? subject=subjetc text" target="_blank"
+                            title="Email">
+                    </map>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div id="conteudo">
+        <table align="center">
+            <tr>
+                <th colspan="3" id="sobre-mim">
+                    <h1>SOBRE MIM</h1>
+                    <p>Graduanda em análise e desenvolvimento de sistemas, busco me introduzir no mercado da tecnologia
+                        com base nos meus conhecimentos e experiências acadêmicas. Eu prospero em ambientes onde sou
+                        capaz de causar um impacto direto, sou focada e diligente ao gerenciar cargas de trabalho e
+                        priorizar tarefas para cumprir prazos. Sou excelente em organização e espírito de equipe.</p>
+                </th>
+            </tr>
+            <tr class="skills">
+                <td>
+                    <h1 id="hard">Hard skills</h1>
+                    <h2>Tecnologia</h2>
+                    <ul>
+                        <li>HTML e CSS<div class="level-wrapper">
+                                <div class="level-label"></div>
+                                <div class="level-default level-animate">
+                                    <div class="level-container">
+                                        <div class="level-blank" style="width:10%"></div>
+                                        <div class="level-bar" style="width:85%"></div>
+                                    </div>
+                        </li>
+                        <li>PHP
+                            <div class="level-wrapper">
+                                <div class="level-label"></div>
+                                <div class="level-default level-animate">
+                                    <div class="level-container">
+                                        <div class="level-blank" style="width:10%"></div>
+                                        <div class="level-bar" style="width:45%"></div>
+                                    </div>
+                        </li>
+                        <li>C++
+                            <div class="level-wrapper">
+                                <div class="level-label"></div>
+                                <div class="level-default level-animate">
+                                    <div class="level-container">
+                                        <div class="level-blank" style="width:10%"></div>
+                                        <div class="level-bar" style="width:40%"></div>
+                                    </div>
+                        </li>
+                        <li>Windows 7 e 10
+                            <div class="level-wrapper">
+                                <div class="level-label"></div>
+                                <div class="level-default level-animate">
+                                    <div class="level-container">
+                                        <div class="level-blank" style="width:10%"></div>
+                                        <div class="level-bar" style="width:70%"></div>
+                                    </div>
+                        </li>
+                        <h2>Ferramentas</h2>
+                        <li>Excel
+                            <div class="level-wrapper">
+                                <div class="level-label"></div>
+                                <div class="level-default level-animate">
+                                    <div class="level-container">
+                                        <div class="level-blank" style="width:10%"></div>
+                                        <div class="level-bar" style="width:50%"></div>
+                                    </div>
+                        </li>
+                        <li>Word
+                            <div class="level-wrapper">
+                                <div class="level-label"></div>
+                                <div class="level-default level-animate">
+                                    <div class="level-container">
+                                        <div class="level-blank" style="width:10%"></div>
+                                        <div class="level-bar" style="width:75%"></div>
+                                    </div>
+                        </li>
+                        <li>PowerPoint
+                            <div class="level-wrapper">
+                                <div class="level-label"></div>
+                                <div class="level-default level-animate">
+                                    <div class="level-container">
+                                        <div class="level-blank" style="width:10%"></div>
+                                        <div class="level-bar" style="width:65%"></div>
+                                    </div>
+                        </li>
+                        <li>vhsys
+                            <div class="level-wrapper">
+                                <div class="level-label"></div>
+                                <div class="level-default level-animate">
+                                    <div class="level-container">
+                                        <div class="level-blank" style="width:10%"></div>
+                                        <div class="level-bar" style="width:70%"></div>
+                                    </div>
+                        </li>
+                        <li>Redes sociais
+                            <div class="level-wrapper">
+                                <div class="level-label"></div>
+                                <div class="level-default level-animate">
+                                    <div class="level-container">
+                                        <div class="level-blank" style="width:10%"></div>
+                                        <div class="level-bar" style="width:60%"></div>
+                                    </div>
+                        </li>
+                        <li>Emails
+                            <div class="level-wrapper">
+                                <div class="level-label"></div>
+                                <div class="level-default level-animate">
+                                    <div class="level-container">
+                                        <div class="level-blank" style="width:10%"></div>
+                                        <div class="level-bar" style="width:80%"></div>
+                                    </div>
+                        </li>
+                        <li>Canva
+                            <div class="level-wrapper">
+                                <div class="level-label"></div>
+                                <div class="level-default level-animate">
+                                    <div class="level-container">
+                                        <div class="level-blank" style="width:10%"></div>
+                                        <div class="level-bar" style="width:45%"></div>
+                                    </div>
+                        </li>
+                        <h2>Linguística</h2>
+                        <li>Gramática e Ortografia</li>
+                        <li>Inglês A2 - B1</li>
+                    </ul>
+                    <h1 id="soft">SOFT SKILLS</h1>
+                        <ul>
+                            <li>Abertura a feedbacks</li>
+                            <li>Consistência</li>
+                            <li>Determinação</li>
+                            <li>Espírito de equipe</li>
+                            <li>Flexibilidade</li>
+                            <li>Liderança</li>
+                            <li>Organização</li>
+                            <li>Resiliência</li>
+                        </ul>
+                </td>
+                <td id="vertical">
+                </td>
+                <td>
+                    <h1 id="formacao">Formação acadêmica</h1>
+                        <h2>Análise e Desenvolvimento de Sistemas</h2>
+                            <h3>Fevereiro de 2021 - Dezembro de 2022</h3>
+                                <h4>Universidade Braz Cubas, Mogi das Cruzes - Superior</h4>
+                        <h2>Automação Industrial</h2>
+                            <h3>Fevereiro de 2018 - Dezembro de 2020</h3>
+                                <h4>Instituto Federal de Educação, Ciência e Tecnologia de São Paulo, Suzano - Técnico integrado aoMédio</h4>
+                    <h1 id="experiencia">EXPERIÊNCIA</h1>
+                        <h2>Assistente administrativo financeiro, Altprint</h2>
+                            <h3>FEVEREIRO DE 2021 - AGOSTO DE 2021</h3>
+                                <ul class="tarefas">
+                                    <li>&#9656;Controle de contas a pagar e a receber</li>
+                                    <li>&#9656;Emissão de boletos</li>
+                                    <li>&#9656;Alimentação de informações em sistemas</li>
+                                    <li>&#9656;Administração e organização de documentos</li>
+                                </ul>
+                        <h2>Projeto Interdisciplinar</h2>
+                            <h3>FEVEREIRO DE 2021 - JUNHO DE 2021</h3>
+                                <ul class="tarefas">
+                                    <li>&#9656;Aplicações de técnicas de engenharia de requisitos</li>
+                                    <li>&#9656;Questionário e entrevista com cliente real</li>
+                                    <li>&#9656;Criação de protótipo e mockup</li>
+                                    <li>&#9656;Desenvolvimento de páginas em HTML e estilização em CSS</li>
+                                </ul>
+                    <h1 id="extracurricular">EXTRACURRICULARES</h1>
+                        <ul>
+                            <li>Representante de turma, 2° Semestre</li>
+                            <li>Cursando Excel, Fundação Bradesco</li>
+                            <li>Cursando Web Design com HTML e CSS, Udemy</li>
+                            <li>Curso de LGPD, Fundação Bradesco</li>
+                            <li>Curso de HTML Básico, Fundação Bradesco</li>
+                            <li>Participação na Technovation Girls 2021</li>
+                            <li>Organização de grupo de estudos, EMEB Estância</li>
+                            <li>Curso de Informática Básica, Brasil Treina</li>
+                        </ul>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+</body>
+
+</html>
+
+

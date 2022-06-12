@@ -1,0 +1,249 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="imagens/shortcut-32x32.png" type="image/x-icon">
+    <title>F&F - Rodrigo Vieira de Freitas</title>
+    <style type="text/css">
+        body{
+            margin: 0% 0% 1% 0%; 
+            font-family: 'Montserrat', sans-serif;  }
+        #cabecalho{
+background-color:#473BF0;
+            margin: 2% 1% 2% 1%;
+            border-radius: 15px;
+            box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.8);  }
+        #cabecalho h1{
+            color: white;
+            font-size: 230%;
+            text-align: left;
+            padding-top: 32px;
+            margin-bottom: 2%;
+            font-weight: bold;  }
+        #cabecalho h2{
+            color: rgb(210, 210, 210);
+            font-size: 100%;
+            text-align: right;  }
+        #cabecalho h3{
+            color: rgb(230, 230, 230);
+            font-size: 100%;
+            text-align: left;   }
+        #foto img{
+            width: 160px;
+            border-radius: 160px;
+            margin: 20px;   }
+        #icon img{
+            width: 25px;
+            margin: 30px;   }
+        td#icon{
+            vertical-align: top;    }
+        #dados{
+            vertical-align: text-top;   }
+        #conteudo{
+            text-align: left;   }
+        #conteudo ul{
+            padding-left: 0%;
+            list-style: none;
+            padding-right: 56px;
+            font-weight: bolder;    }
+        #conteudo li {
+            font-size: 15px;
+            margin-bottom: 10px;    }
+        #conteudo table{
+            width: 60%;
+            background-color: #F4EEED;
+            border-radius: 15px;
+            padding-left: 3%;
+            padding-right: 3%;  }
+        #conteudo tr{
+            vertical-align: text-top;   }
+        #sobre-mim{
+            text-align: justify;    }
+        #conteudo h1{
+            color:black;
+            font-size: 22px;
+            text-transform: uppercase;
+            font-weight: bolder;
+            margin-top: 20px;
+            margin-bottom: 15px;    }
+        #conteudo h2{
+            font-size: 18px;
+            margin-top: 0px;
+            margin-bottom: 5px; }
+        #conteudo h3{
+            font-size: 11px;
+            margin-top: 0px;
+            margin-bottom: 5px;
+            text-transform: uppercase;  }
+        #conteudo h4{
+            font-size: 15px;
+            margin-top: 0px;
+            margin-bottom: 20px;    }
+        #vertical {
+            height: 0%;
+            border-left: 1px solid #494F56;
+            padding: 15px;  }
+        #soft h1{
+            margin-top: 40px;   }
+        #hard {
+            margin-bottom: 40px;    }
+        .level-wrapper {
+            border-top-right-radius: 20px;
+            border-bottom-right-radius: 20px;
+            background-color: #ccc;
+            clear: both;
+            width: 100%;
+            height: 15px;
+            border-radius: 20px;    }
+        .level-label {
+            font-weight: 400;
+            color: #fff;
+            position: absolute;
+            z-index: 1;
+            padding-left: 10px;
+            padding-top: 12px;  }
+        .level-animate { 
+            -webkit-animation-name: grow-to-right;
+            animation-name: grow-to-right;  }
+        .level-blank {
+            border-radius: 20px;
+            height: 15px;
+            float: left;    }
+        .level-bar {
+            background-color: black;
+            height: 15px;
+            border-radius: 20px;
+            white-space: nowrap;    }
+    </style>
+</head>
+<body>
+    <div id="cabecalho">
+        <table align="center">
+            <tr>
+                <td id="foto">
+                    <img src="imagens/perfil-rodrigo.jpg" alt="saved pictures">
+                </td>
+                <td id="dados">
+                    <h1>Rodrigo Vieira de Freitas Junior</h1>
+                    <h2>Rodrigo Vieira de Freitas Junior, 18 anos, Mogi das Cruzes-SP</h2>
+                    <h3>DESENVOLVIMENTO DE SISTEMAS</h3>
+                </td>
+                <td id="icon">
+                    <img src="imagens\icons.png" usemap="#redes">
+                    <map name="redes">
+                        <area shape="rect" coords="0, 0, 30, 30" href="https://www.linkedin.com/in/rodrigo-vieira-58a38a203/" target="_blank" alt="LinkedIn">
+                        <area shape="rect" coords="0, 40, 30, 60"
+                            href="https://api.whatsapp.com/send?phone=5511951188170o&text=Ola,%20Rodrigo" target="_blank" alt="Whatsapp">
+                        <area shape="rect" coords="0, 75, 30, 95" href="mailto:diguinho_vf5@hotmail.com? subject=subjetc text" target="_blank" alt="Email">
+                    </map>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div id="conteudo">
+        <table align="center">
+            <tr>
+                <th colspan="3" id="sobre-mim">
+                    <h1>SOBRE MIM</h1>
+                    <p> Sou muito comunicativo com a equipe, gosto de trabalhar em equipe e sempre evoluir juntos,
+                        sou bem descontraído sempre dando risadas e tentando colocar a equipe para cima,
+                        pra mim a satisfação da equipe é muito importante para um trabalho e sempre irei colocar ela em primeiro.</p>
+                </th>
+            </tr>
+            <tr>
+                <td rowspan="3" id="hard">
+                    <h1>Hard skills</h1>
+                    <h2>Tecnologias</h2>
+                    <ul>
+                        <li>C++<div class="level-wrapper">
+                                <div class="level-label"></div>
+                                <div class="level-default level-animate">
+                                    <div class="level-container">
+                                        <div class="level-blank" style="width:10%"></div>
+                                        <div class="level-bar" style="width:40%"></div>
+                                    </div>
+                        </li>
+                        <li>Git/Github
+                            <div class="level-wrapper">
+                                <div class="level-label"></div>
+                                <div class="level-default level-animate">
+                                    <div class="level-container">
+                                        <div class="level-blank" style="width:10%"></div>
+                                        <div class="level-bar" style="width:20%"></div>
+                                    </div>
+                        </li>
+                        <li>HTML/CSS
+                            <div class="level-wrapper">
+                                <div class="level-label"></div>
+                                <div class="level-default level-animate">
+                                    <div class="level-container">
+                                        <div class="level-blank" style="width:10%"></div>
+                                        <div class="level-bar" style="width:95%"></div>
+                                    </div>
+                        </li>
+                        <li>Java
+                            <div class="level-wrapper">
+                                <div class="level-label"></div>
+                                <div class="level-default level-animate">
+                                    <div class="level-container">
+                                        <div class="level-blank" style="width:10%"></div>
+                                        <div class="level-bar" style="width:35%"></div>
+                                    </div>
+                        </li>
+                        <li>PHP
+                            <div class="level-wrapper">
+                                <div class="level-label"></div>
+                                <div class="level-default level-animate">
+                                    <div class="level-container">
+                                        <div class="level-blank" style="width:10%"></div>
+                                        <div class="level-bar" style="width:45%"></div>
+                                    </div>
+                        </li>
+                        <li>Inglês
+                            <div class="level-wrapper">
+                                <div class="level-label"></div>
+                                <div class="level-default level-animate">
+                                    <div class="level-container">
+                                        <div class="level-blank" style="width:10%"></div>
+                                        <div class="level-bar" style="width:40%"></div>
+                                    </div>
+                        </li>
+                    </ul>
+                    <h1 id="soft">SOFT SKILLS</h1>
+                    <ul>
+                        <li>Comunicação</li>
+                        <li>Espírito de equipe</li>
+                        <li>Descontraído</li>
+                        <li>Profissional</li>
+                        <li>Focado</li>
+                        <li>Amigo de todo mundo</li>
+                        <li>Calmo e paciente</li>
+                        <li>Sincero</li>
+                    </ul>
+                </td>
+                                <td rowspan="3" id="vertical">
+                </td>
+                <td id="formacao">
+                    <h1>Formação acadêmica</h1>
+                    <h2>Análise e Desenvolvimento de Sistemas</h2>
+                    <h3>Fevereiro de 2021 - Dezembro de 2022</h3>
+                    <h4>Universidade Braz Cubas, Mogi das Cruzes - Superior</h4>
+                    <h2>Curso de Inglês</h2>
+                    <h3>Novembro 2021 - Em andamento</h3>
+
+                    <h1 id="extracurricular">EXTRACURRICULARES</h1>
+                    <ul>
+                        <li>Participação em eventos</li>
+                        <li>Cursos complementares</li>
+                        <li>Inglês  Instuição Bradesco</li>
+                        <li>Html e Css - Instituição Bradesco</li>
+                        <li>Java - Instituição Bradesco</li>
+                        <li>Pacote Office instituição Bradesco</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+</body>
+</html>
