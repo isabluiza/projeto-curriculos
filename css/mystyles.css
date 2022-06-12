@@ -1,0 +1,311 @@
+body {
+    margin: 0;
+    font-family: Montserrat;
+    background-image: url("wallpaper.jpg");
+}
+
+.navigation{
+    background-color: #1c1e2b;
+} 
+
+.navigation table{
+  width: 100%;
+}
+
+.nome-logo{
+  color: #FCF7FF;
+  font-size: 25px;
+  padding: 0px 10px 0px 0px;
+  font-weight: 600;
+  font-variant:small-caps;
+}
+
+.nome-logo span{
+  display: block;
+  color: #D9DBF1;
+}
+
+.logotipo{
+  width:90px;
+  padding: 20px 10px 0px 35px;
+  vertical-align: top;
+}
+
+.navigation img{
+  width:90px;
+  margin: 0%;
+  padding: 0%;
+  filter: invert(1);
+}
+
+.navigation ul{
+  list-style: none;
+  padding: 50px 20px 20px;
+  text-align: right;
+  height: 30px;
+  color: #FCF7FF;
+  height: 50px;
+}
+
+.navigation li{
+  display: inline-block;
+  padding-right: 30px;
+  line-height: 25px;
+  font-size: 15px;
+  font-weight: 800;
+}
+
+.navigation a{
+  color: white;
+  text-decoration: none;
+}
+
+.navigation a:hover {
+  color: #D9DBF1; 
+  transition: 0.2s;
+  opacity: 0.5;
+}
+
+.atual{
+  color:#D9DBF1;
+}
+
+.busca_email{
+  background-color:#FCF7FF;
+  border:solid 2px #D9DBF1;
+  border-radius:10px;
+  width:50%;
+  height:32px;
+  margin: 30px 20% 0px 15%;
+}
+
+.busca_fundo{
+  float:left;
+  background-color:transparent;
+  padding-left:10px;
+  font-size:15px;
+  border:none;
+  height:32px;
+  width:75%;
+}
+
+.busca_botao{
+  border:none;
+  float:right;
+  height:32px;
+  border-radius:0 7px 7px 0;
+  width:30px;
+  font-weight:bold;
+  background:#D9DBF1;
+  cursor:pointer;
+}
+
+#bt1 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  cursor:pointer;
+
+  border-radius: 50%;
+  width: 22px;
+  height: 22px;
+
+  border: 2px solid #DD2D4A;
+  transition: 0.2s all linear;
+  margin-right: 5px;
+
+  position: relative;
+  top: 4px;
+  background-color: #DD2D4A;
+}
+
+#bt1:checked {
+  background-color: white;
+  border: 6px solid #DD2D4A;
+}
+
+#bt2 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  cursor:pointer;
+
+  border-radius: 50%;
+  width: 22px;
+  height: 22px;
+
+  border: 2px solid #1C5253;
+  transition: 0.2s all linear;
+  margin-right: 5px;
+
+  position: relative;
+  top: 4px;
+  background-color: #1C5253;
+}
+
+#bt2:checked {
+  background-color: white;
+  border: 6px solid #1C5253;
+}
+
+#bt3 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  cursor:pointer;
+
+  border-radius: 50%;
+  width: 22px;
+  height: 22px;
+
+  border: 2px solid #473BF0;
+  transition: 0.2s all linear;
+  margin-right: 5px;
+
+  position: relative;
+  top: 4px;
+  background-color: #473BF0;
+}
+
+#bt3:checked {
+  background-color: white;
+  border: 6px solid #473BF0;
+}
+
+#bt4 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  cursor:pointer;
+
+  border-radius: 50%;
+  width: 22px;
+  height: 22px;
+
+  border: 2px solid #32021F;
+  transition: 0.2s all linear;
+  margin-right: 5px;
+
+  position: relative;
+  top: 4px;
+  background-color: #32021F;
+}
+
+#bt4:checked {
+  background-color: white;
+  border: 6px solid #32021F;
+}
+
+.explicativo{
+  margin: 50px 20% 0px 20%;
+  text-align: justify;
+  font-weight: 700;
+  font-size: 18px;
+  color: #1F1F1F;
+  cursor:context-menu;
+  line-height: 25px;
+  background-color: white;
+}
+
+.explic{
+  margin: 55px 20% 0px 15%;
+  text-align: justify;
+  font-weight: 700;
+  font-size: 18px;
+  color: #1F1F1F;
+  cursor:context-menu;
+  line-height: 25px;
+  background-color: white;
+}
+
+.motivacional{
+  margin: 55px 27% 0px 27%;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  color: #1F1F1F;
+  cursor:context-menu;
+  line-height: 25px;
+  background-color: #F3F3F7;
+}
+
+iframe{
+  margin-top: 25px;
+}
+
+.grade{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.curriculos{
+  width: 250px;
+  height: 166px;
+  margin: 30px 5% 50px 5%;
+  display: inline-block;
+  border: 1px solid #1c1e2b;
+  border-radius: 5px 10px 15px 20px;
+  background-color: white;
+  -webkit-transition: -webkit-transform .5s ease;
+  transition: transform .5s ease;
+}
+
+.curriculos img{
+  border-radius: 5px 10px 15px 20px;
+  width: 250px;
+  height: 166px;
+}
+
+.curriculos:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.curriculos p{
+  font-weight: 600;
+  font-size: 15px;
+  color: #1F1F1F;
+  cursor:context-menu;
+  line-height: 20px;
+  background-color: white;
+  text-align: center;
+  margin: 3%;
+}
+
+.curriculos span{
+  font-size: 13px;
+}
+
+.voltar button{
+  padding: 0%;
+  margin: 1px 20% 0px 10%;
+  border:none;
+  border-radius:7px 7px 7px 7px;
+  width:35px;
+  font-size: 30px;
+  background:#D9DBF1;
+  cursor:pointer;
+}
+
+.voltar button:hover{
+  transition: 0.2s;
+  opacity: 0.9;
+}
+
+.geral {
+  min-height:100%;
+  position:relative;
+}
+
+.footer {
+  position:absolute;
+  bottom:0;
+  width:100%;
+  color: #ccc;
+  background-color: #30344A;
+  text-align: center;
+  line-height: 10px;
+  font-size: 13px;
+}
